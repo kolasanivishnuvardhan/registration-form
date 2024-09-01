@@ -1,0 +1,85 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.registration-name {
+  color: #ea580c;
+  font-family: 'Roboto';
+  font-size: 36px;
+}
+
+.form-container {
+  padding: 40px 10px 40px 10px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 8px;
+}
+
+.label-first-name {
+  color: #475569;
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.input-first-name {
+  width: 260px;
+  font-family: 'Roboto';
+  padding: 5px;
+  outline: none;
+  color: #9aa5b1;
+  border-radius: 4px;
+  border: solid 1px #9aa5b1;
+}
+
+.submit-btn {
+  background-color: #ea580c;
+  color: #ffffff;
+  border: solid 1px #ea580c;
+  border-radius: 8px;
+  padding: 6px 10px 6px 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.required {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-top: 0px;
+}
+
+.bg-error {
+  background-color: #fef2f4;
+  border-color: #ff0b37;
+}
+
+.success-img {
+  width: 20%;
+}
+
+.successfully-submitted {
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.registred-successfull-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 20px 40px 20px 40px;
+  border-radius: 4px;
+}
